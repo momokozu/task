@@ -1,0 +1,123 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+a {
+  text-decoration: none;
+  color: #38b48b;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: darkgreen;
+  text-align: center;
+  color: #fff;
+}
+
+.heading a {
+  color: #fff;
+  margin-top: 10px;
+  
+}
+
+.nav-list {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+  color: #fff;
+}
+
+main {
+  width: 100%;
+  background-color: #ecfcdf;
+  padding: 10px 40px 40px 40px;
+}
+
+.profile-heading{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.profile-box {
+  display: flex;
+}
+
+.image-box {
+  width: 30%;
+  margin-right: 10px;
+}
+
+.profile-image {
+width: 100%;
+border-radius: 10px;
+
+}
+
+.profile-info {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 70%;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.profile-label {
+  width: 100px;
+  font-weight: bold;
+  margin-left: 10px;
+  height: 10px;
+}
+
+.fa-facebook-square {
+  padding: 0 20px 20px 0;
+}
+
+.fa-twitter-square {
+  padding: 0 20px 20px 0;
+}
+
+.fa-instagram {
+  padding: 0 20px 20px 0;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: darkgreen;
+  text-align: center;
+  line-height: 100px;
+
+}
+
+.footer-text {
+  color: #fff;
+}
+
+@media screen and (max-width:768px) {
+
+.profile-box {
+  display: block;
+}
+
+.image-box {
+  width: 100%;
+}
+
+.profile-info {
+  width: 100%;
+}
+
+}
